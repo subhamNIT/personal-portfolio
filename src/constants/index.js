@@ -80,7 +80,8 @@ import {
   SiMicrosoftazure,
   SiTypescript,
   SiBabel,
-  SiWebpack
+  SiWebpack,
+  SiHtml5
 } from "react-icons/si";
 
 import {
@@ -648,11 +649,11 @@ export const projects = [
   {
     id: "project-1",
     title: "Parametric 3D Tool",
-    github: "https://github.com/ayush4345/Comicify.ai",
-    link: "https://comicify-ai.vercel.app/",
+    github: "https://www.youtube.com/watch?v=x4zHBqeh1YM",
+    link: "https://www.youtube.com/watch?v=x4zHBqeh1YM",
     image: comicify_ai,
     content:
-      "Create realistic 3D visualisations of interior designs created within the Livspace 3D Tool.",
+      "Developed a Parametric 3D tool Application using React, Vue, and TypeScript, to create realistic 3D visualisations of interior designs created within the Livspace 3D Tool.",
     stack: [
       {
         id: "icon-1",
@@ -676,14 +677,53 @@ export const projects = [
       }
     ],
   },
+  // {
+  //   id: "project-2",
+  //   title: "Fashion Fusion",
+  //   link: "https://fashion-fusion-live.netlify.app/",
+  //   image: greentrust,
+  //   content:
+  //     "Fashion Fusion is a React-based eCommerce fashion site, offering a seamless and engaging user experience for modern shoppers, from homepage to checkout.",
+  //   stack: [
+  //     {
+  //       id: "icon-1",
+  //       icon: SiReact,
+  //       name: "React"
+  //     },
+  //     {
+  //       id: "icon-2",
+  //       icon: SiTailwindcss,
+  //       name: "TailwindCSS"
+  //     },
+  //     {
+  //       id: "icon-3",
+  //       icon: SiNextdotjs,
+  //       name: "Next.js"
+  //     },
+  //     {
+  //       id: "icon-4",
+  //       icon: SiIpfs,
+  //       name: "IPFS"
+  //     },
+  //     {
+  //       id: "icon-5",
+  //       icon: SiSolidity,
+  //       name: "Solidity"
+  //     },
+  //     {
+  //       id: "icon-6",
+  //       icon: IoIosNotificationsOutline,
+  //       name: "Push Protocol"
+  //     },
+  //   ],
+  // },
   {
-    id: "project-2",
-    title: "GreenTrust",
-    github: "https://github.com/mittal-parth/GreenTrust",
-    link: "https://green-trust-fantom.netlify.app/",
+    id: "project-3",
+    title: "Live Weather App",
+    link: "https://climatrack-live.netlify.app/",
     image: greentrust,
     content:
-      "Winning project at 3 hackathons, GreenTrust offers a novel solution for obtaining certification in organic farming by organizing credible and decentralized Participatory Guarantee Systems (PGSs).",
+      "A user-friendly React Weather App that displays live weather data for cities around the world with a quick search.",
     stack: [
       {
         id: "icon-1",
@@ -696,24 +736,9 @@ export const projects = [
         name: "TailwindCSS"
       },
       {
-        id: "icon-3",
-        icon: SiNextdotjs,
-        name: "Next.js"
-      },
-      {
-        id: "icon-4",
-        icon: SiIpfs,
-        name: "IPFS"
-      },
-      {
-        id: "icon-5",
-        icon: SiSolidity,
-        name: "Solidity"
-      },
-      {
-        id: "icon-6",
-        icon: IoIosNotificationsOutline,
-        name: "Push Protocol"
+        id: "icon-2",
+        icon: SiHtml5,
+        name: "HTML5"
       },
     ],
   }
@@ -908,5 +933,5 @@ export const socialMedia = [
 export const aboutMe = {
     name: "Subham Gupta",
     tagLine: "SDE-II @Fox Corporation | Ex-SDE-II @Livspace | Ex-ASDE-II @Publicis Sapient | NIT Rourkela",
-    intro: "Innovative Software Engineer with 4+ years of experience specializing in building high-performance, user-centric interfaces. Skilled in modern web frameworks with a proven track record of developing scalable solutions and improving user experiences. Passionate about creating intuitive designs that drive user engagement and maximize product adoption."
+    intro: "Software Engineer with experience in developing high-performance interfaces and scalable solutions. Skilled in modern web frameworks and passionate about creating intuitive, user-focused designs."
 }

@@ -2,7 +2,7 @@ import styles from "../style";
 import LetsConnect from "./LetsConnect";
 import Lottie from "react-lottie-player";
 import animationData from "../lotties/person-coding.json";
-import { aboutMe } from "../constants";
+import { aboutMe, resumeLink } from "../constants";
 
 
 // lottie config
@@ -39,9 +39,16 @@ const Hero = () => {
         <h1 className="font-poppins font-semibold ss:text-[68px] text-[52px] text-white ss:leading-[80px] leading-[80px] w-full">
           <span className="text-gradient">{aboutMe.name}</span>
         </h1>
-        <p className={`${styles.paragraph} max-w-[470px] mt-5`}>
+        <p className={`${styles.paragraph} max-w-[600px] mt-5`}>
           {aboutMe.intro}
         </p>
+        <p className={`${styles.paragraph} max-w-[600px] mt-5`}>
+          Interested in working together? If have any other questions or just want to say Hi, feel free to contact me...
+        </p>
+
+        <a href={resumeLink} target="_blank" className="btn about-btn mt-6">
+            <span className="text-white hover:text-teal-200">Resume</span>
+        </a>
       </div>
 
       <div

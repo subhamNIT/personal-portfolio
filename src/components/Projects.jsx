@@ -14,11 +14,11 @@ const Project = (props) => {
       transition={{ duration: 0.75, delay: 0.1 }}
     >
       <div className="flex flex-col sm:-mx-4 sm:flex-row">
-        <img
+        {/* <img
           className="flex-shrink-0 object-cover w-24 h-24 rounded-full sm:mx-4 ring-4 ring-gray-300"
           src={props.image}
           alt=""
-        />
+        /> */}
 
         <div className="mt-4 sm:mx-4 sm:mt-0">
           <h1 className="text-xl font-semibold font-poppins text-gray-700 capitalize md:text-2xl group-hover:text-white text-gradient">
@@ -49,7 +49,7 @@ const Project = (props) => {
       </p>
 
       <div className="flex mt-4 -mx-2">
-        {props.github ? (
+        {/* {props.github ? (
           <a href={props.github} target="_blank">
             <AiFillGithub
               size="2rem"
@@ -58,13 +58,11 @@ const Project = (props) => {
           </a>
         ) : (
           ""
-        )}
+        )} */}
         {props.link ? (
-          <a href={props.link} target="_blank">
-            <BsLink45Deg
-              size="2rem"
-              className="text-white hover:text-teal-200"
-            ></BsLink45Deg>
+          // <button className="text-gray-500 dark:text-gray-300 group-hover:text-gray-300 font-poppins">Demo</button>
+          <a href={props.link} target="_blank" className="btn about-btn">
+            <span className="text-white hover:text-teal-200">See Demo</span>
           </a>
         ) : (
           ""
