@@ -1,4 +1,3 @@
-import parthmittal from "./parth.svg";
 import quotes from "./quotes.svg";
 import robot from "./robot.png";
 import send from "./Send.svg";
@@ -83,7 +82,6 @@ export {
   publiclab,
   zulip,
   cdc,
-  parthmittal,
   profilePic,
   chargeswap,
   placeicon,

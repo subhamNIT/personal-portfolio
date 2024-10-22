@@ -61,7 +61,7 @@ const Project = (props) => {
         )} */}
         {props.link ? (
           // <button className="text-gray-500 dark:text-gray-300 group-hover:text-gray-300 font-poppins">Demo</button>
-          <a href={props.link} target="_blank" className="btn about-btn">
+          <a href={props.link} target="_blank" rel="noreferrer" className="btn about-btn">
             <span className="text-white hover:text-teal-200">See Demo</span>
           </a>
         ) : (

@@ -81,7 +81,13 @@ import {
   SiTypescript,
   SiBabel,
   SiWebpack,
-  SiHtml5
+  SiHtml5,
+  SiSpringboot,
+  SiAmazonaws,
+  SiSqlite,
+  SiMongodb,
+  SiAmazondynamodb,
+  SiPostgresql
 } from "react-icons/si";
 
 import {
@@ -171,17 +177,6 @@ export const achievements = [
 //     article: "https://shorturl.at/fhjsT",
 //   },
 //   {
-//     id: "a-4",
-//     icon: dennisivy,
-//     event: "September Hackathon by Dennis Ivy",
-//     position: "Winner",
-//     content1: "Rated the best portfolio website among 450+ participants across the globe.",
-//     content2: "",
-//     content3: "",
-//     youtube: "https://www.youtube.com/watch?v=X2473En3h_o&t=5278s",
-//     project: "https://parthmittal.netlify.app/",
-//   },
-//   {
 //     id: "a-5",
 //     icon: manipal,
 //     event: "Manipal Hackathon'22",
@@ -229,6 +224,11 @@ export const skills = [
         name: "JavaScript",
       },
       {
+        id: "pl-10",
+        icon: FaGolang,
+        name: "Golang",
+      },
+      {
         id: "pl-6",
         icon: DiJava,
         name: "Java",
@@ -257,6 +257,11 @@ export const skills = [
         id: "f-3",
         icon: SiReact,
         name: "ReactJS",
+      },
+      {
+        id: "f-4",
+        icon: SiSpringboot,
+        name: "Springboot",
       },
       {
         id: "f-7",
@@ -291,6 +296,32 @@ export const skills = [
     ],
   },
   {
+    title: "Databases",
+    items: [
+      {
+        id: "t-2",
+        icon: SiMysql,
+        name: "MySQL",
+      },
+      {
+        id: "t-3",
+        icon: SiAmazondynamodb,
+        name: "DynamoDB",
+      },
+      {
+        id: "t-1",
+        icon: SiMongodb,
+        name: "Mongodb",
+      },
+      {
+        id: "t-1",
+        icon: SiPostgresql,
+        name: "Postgres",
+      },
+    ],
+  },
+
+  {
     title: "Tools",
     items: [
       {
@@ -299,9 +330,9 @@ export const skills = [
         name: "Azure",
       },
       {
-        id: "t-2",
-        icon: SiMysql,
-        name: "MySQL",
+        id: "t-1",
+        icon: SiAmazonaws,
+        name: "AWS",
       },
       {
         id: "t-3",
@@ -677,46 +708,36 @@ export const projects = [
       }
     ],
   },
-  // {
-  //   id: "project-2",
-  //   title: "Fashion Fusion",
-  //   link: "https://fashion-fusion-live.netlify.app/",
-  //   image: greentrust,
-  //   content:
-  //     "Fashion Fusion is a React-based eCommerce fashion site, offering a seamless and engaging user experience for modern shoppers, from homepage to checkout.",
-  //   stack: [
-  //     {
-  //       id: "icon-1",
-  //       icon: SiReact,
-  //       name: "React"
-  //     },
-  //     {
-  //       id: "icon-2",
-  //       icon: SiTailwindcss,
-  //       name: "TailwindCSS"
-  //     },
-  //     {
-  //       id: "icon-3",
-  //       icon: SiNextdotjs,
-  //       name: "Next.js"
-  //     },
-  //     {
-  //       id: "icon-4",
-  //       icon: SiIpfs,
-  //       name: "IPFS"
-  //     },
-  //     {
-  //       id: "icon-5",
-  //       icon: SiSolidity,
-  //       name: "Solidity"
-  //     },
-  //     {
-  //       id: "icon-6",
-  //       icon: IoIosNotificationsOutline,
-  //       name: "Push Protocol"
-  //     },
-  //   ],
-  // },
+  {
+    id: "project-2",
+    title: "Gadget Grid",
+    link: "https://gadget-grid.netlify.app/",
+    image: greentrust,
+    content:
+      "Discover a wide range of smartphones, accessories, and gadgets, from the latest models to essential add-ons like cases, chargers, and earbuds.",
+    stack: [
+      {
+        id: "icon-1",
+        icon: SiReact,
+        name: "React"
+      },
+      {
+        id: "icon-2",
+        icon: SiTailwindcss,
+        name: "TailwindCSS"
+      },
+      {
+        id: "icon-3",
+        icon: SiHtml5,
+        name: "HTML5"
+      },
+      {
+        id: "icon-4",
+        icon: SiJavascript,
+        name: "Javascript"
+      },
+    ],
+  },
   {
     id: "project-3",
     title: "Live Weather App",

@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { close, parthmittal, menu } from "../assets";
+import { close, menu } from "../assets";
 import { navLinks } from "../constants";
 import { scrollToSection } from "../../lib/helperFunctions";
 
@@ -8,14 +8,6 @@ const Navbar = () => {
 
   return (
     <nav className="w-full  flex justify-between items-center navbar">
-      {/* Logo */}
-      {/* <a href="#home">
-        <img
-          src={parthmittal}
-          alt="Subham Gupta"
-          className="w-[80px] h-[80px]"
-        />
-      </a> */}
 
       {/* List of links */}
       <ul className="list-none sm:flex hidden justify-end items-center flex-1 py-10">
